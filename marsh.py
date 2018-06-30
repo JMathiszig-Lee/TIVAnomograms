@@ -37,26 +37,25 @@ Weight_params={
 }
 
 block_1_params={
-'block_type':'type_2',
-'width':10.0,
-'height':10.0,
-'f1_params':Prop_params,
-'f2_params':Tar_params,
-'f3_params':S_params,
+    'block_type':'type_2',
+    'width':10.0,
+    'height':10.0,
+    'f1_params':Prop_params,
+    'f2_params':Tar_params,
+    'f3_params':S_params,
 }
 
 
 main_params={
-'filename':'Type2-Example.pdf',
-'paper_height':10.0,
-'paper_width':10.0,
-'block_params':[block_1_params],
-'transformations':[('rotate',0.01),('scale paper',),
-('polygon',)],
-'title_x':5.0,
-'title_y':-1.0,
-'title_box_width': 10.0,
-'title_str':r'$(S+0.64)^{0.58}(0.74V) = P$'
+    'filename':'Type2-Example.pdf',
+    'paper_height':10.0,
+    'paper_width':10.0,
+    'block_params':[block_1_params],
+    'transformations':[('rotate',0.01),('scale paper',),('polygon',)],
+    'title_x':5.0,
+    'title_y':-1.0,
+    'title_box_width': 10.0,
+'   title_str':r'$(S+0.64)^{0.58}(0.74V) = P$'
 }
 
 Nomographer(main_params)
