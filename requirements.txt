@@ -1,1 +1,2 @@
+pyx
 -e git+https://github.com/lefakkomies/pynomo.git
