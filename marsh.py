@@ -55,7 +55,7 @@ main_params={
     'title_x':5.0,
     'title_y':-1.0,
     'title_box_width': 10.0,
-'   title_str':r'$(S+0.64)^{0.58}(0.74V) = P$'
+    'title_str':r'$(S+0.64)^{0.58}(0.74V) = P$'
 }
 
 Nomographer(main_params)
